@@ -1,3 +1,8 @@
+*.wav
+*.zip
+*.model
+*.pkl
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
