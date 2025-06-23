@@ -8,4 +8,4 @@ Attempts at speech conversion
 * [taco example from PyTorch](./taco_v/)
 * [UNFINISHED emotion conversion](./emo.py)
 
-Download RAVDESS dataset into `data/`. Copy directory files to top-level for processing.
+Download RAVDESS dataset into `data/`. Copy directory files to top-level for processing. Current top level application requires LJSpeech.
