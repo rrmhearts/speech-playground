@@ -1,0 +1,1 @@
+Important example for training a model on audio using librosa and PyTorch. Replaced by `audio2torchaudio.py`.
