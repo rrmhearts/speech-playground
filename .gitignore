@@ -2,8 +2,10 @@
 *.zip
 *.model
 *.pkl
+*.pth 
 
-data/ 
+data/
+!data/*.md
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
