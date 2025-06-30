@@ -12,3 +12,7 @@ Download RAVDESS dataset into `data/`. Copy directory files to top-level for pro
 
 The secret Microsoft doesn't want you to know about. **"Shortcuts"** are not supported by VSCode for some reason.
 `New-Item -Path <new_symlink_name> -ItemType SymbolicLink -Value <source_of_symlink>`
+```sh
+# e.g.
+New-Item -Path .\EmoV_DB -ItemType SymbolicLink -Value ..\..\Datasets\EmoV_DB\
+```

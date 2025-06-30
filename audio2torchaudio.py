@@ -129,7 +129,7 @@ def mel_to_waveform(mel_db, sr=22050, n_fft=1024, win_length=1024, hop_length=25
 
 if __name__ == "__main__":
     dataset = LJSpeechMelDataset("./data/LJSpeech-1.1")
-    loader = DataLoader(dataset, batch_size=8, shuffle=True, drop_last=True)
+    loader = DataLoader(dataset, batch_size=16, shuffle=True, drop_last=True)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = MelFeatureAutoencoder().to(device)
